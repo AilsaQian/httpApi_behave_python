@@ -1,0 +1,1133 @@
+
+[2018-03-16 10:48:25,840] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:25,840] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 10:48:26,061] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=
+[2018-03-16 10:48:26,061] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,062] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,064] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,064] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': ''}
+[2018-03-16 10:48:26,154] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=
+[2018-03-16 10:48:26,154] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,155] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,158] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,158] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 100, 'limit': ''}
+[2018-03-16 10:48:26,247] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=100&limit=
+[2018-03-16 10:48:26,247] $INFO (commonSteps.py:22) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 10:48:26,248] $INFO (cloudManage.py:16) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 10:48:26,250] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,250] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': 1}
+[2018-03-16 10:48:26,337] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=1
+[2018-03-16 10:48:26,337] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 10:48:26,337] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 10:48:26,339] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,339] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 1}
+[2018-03-16 10:48:26,425] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=1
+[2018-03-16 10:48:26,425] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 10:48:26,426] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 10:48:26,428] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,428] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 325, 'page': '', 'limit': ''}
+[2018-03-16 10:48:26,517] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=325&page=&limit=
+[2018-03-16 10:48:26,518] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:26,518] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:26,520] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,520] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 10:48:26,615] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=&page=&limit=
+[2018-03-16 10:48:26,615] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:26,615] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:26,617] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,617] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': 374, 'page': '', 'limit': ''}
+[2018-03-16 10:48:26,695] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=374&page=&limit=
+[2018-03-16 10:48:26,695] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 10:48:26,695] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 10:48:26,697] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,697] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 3333, 'page': 'test', 'limit': ''}
+[2018-03-16 10:48:26,773] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=3333&page=test&limit=
+[2018-03-16 10:48:26,773] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 10:48:26,773] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 10:48:26,776] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,776] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 'test', 'page': '', 'limit': ''}
+[2018-03-16 10:48:26,885] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=test&page=&limit=
+[2018-03-16 10:48:26,886] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,886] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,895] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,895] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 'test', 'limit': ''}
+[2018-03-16 10:48:26,985] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=test&limit=
+[2018-03-16 10:48:26,986] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,986] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:26,989] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:26,989] $INFO (cloudManage.py:13) {'instance_name': 123, 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 10:48:27,074] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=123&cloud_id=&page=&limit=
+[2018-03-16 10:48:27,074] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:27,074] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:27,076] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:27,076] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 'test'}
+[2018-03-16 10:48:27,156] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=test
+[2018-03-16 10:48:27,158] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:27,159] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 10:48:27,163] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 10:48:27,163] $INFO (cloudManage.py:13) {'instance_name': 'test', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 10:48:27,244] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=test&cloud_id=&page=&limit=
+[2018-03-16 10:48:27,244] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:27,245] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 10:48:27,248] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 10:48:27,248] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 10:48:27,334] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=90
+[2018-03-16 10:48:27,334] $INFO (commonSteps.py:22) {"code":1,"data":{"host_info":{"id":"90","instance_id":"i-t4nhhhnujmq7123p5ald","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","platform":"linux","public_ip":"47.74.155.136","inner_ip":null,"status":"Running","task_id":"4286960","region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","operating_system":"Ubuntu  16.04 64位","processor_cores":"1","memory":"1024","instance_type":"ecs.xn4.small","network_type":"vpc","charge_type":"PrePaid","internet_charge_type":"PrePaid","internet_band_width":"1","creation_time":"1505052660","expired_time":"1599753600","import_time":"1521107085","metric_data_ready":"0","traffic_data_ready":"0","user_id":"100699","cloud_id":"428","group_id":"0","image_id":"m-t4nhaysdqmkekcltj8zn","team_id":"0","instance_type_family":"","io_optimized":null,"instance_cost":null,"disk_cost":null,"bandwidth_cost":null,"snapshot_cost":null,"description":"","cloud_type":"0","provider":"aliyun"}}}
+[2018-03-16 10:48:27,335] $INFO (cloudManage.py:16) {"code":1,"data":{"host_info":{"id":"90","instance_id":"i-t4nhhhnujmq7123p5ald","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","platform":"linux","public_ip":"47.74.155.136","inner_ip":null,"status":"Running","task_id":"4286960","region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","operating_system":"Ubuntu  16.04 64位","processor_cores":"1","memory":"1024","instance_type":"ecs.xn4.small","network_type":"vpc","charge_type":"PrePaid","internet_charge_type":"PrePaid","internet_band_width":"1","creation_time":"1505052660","expired_time":"1599753600","import_time":"1521107085","metric_data_ready":"0","traffic_data_ready":"0","user_id":"100699","cloud_id":"428","group_id":"0","image_id":"m-t4nhaysdqmkekcltj8zn","team_id":"0","instance_type_family":"","io_optimized":null,"instance_cost":null,"disk_cost":null,"bandwidth_cost":null,"snapshot_cost":null,"description":"","cloud_type":"0","provider":"aliyun"}}}
+[2018-03-16 10:48:27,337] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 10:48:27,337] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 10:48:27,415] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=13
+[2018-03-16 10:48:27,415] $INFO (commonSteps.py:22) {"code":1,"data":{"host_info":null}}
+[2018-03-16 10:48:27,415] $INFO (cloudManage.py:16) {"code":1,"data":{"host_info":null}}
+[2018-03-16 10:48:27,417] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 10:48:27,417] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 10:48:27,486] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=
+[2018-03-16 10:48:27,487] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:27,487] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:27,489] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 10:48:27,490] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 10:48:27,564] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=test
+[2018-03-16 10:48:27,565] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:27,565] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:27,568] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 10:48:27,568] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 10:48:27,649] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=1211111
+[2018-03-16 10:48:27,649] $INFO (commonSteps.py:22) {"code":1,"data":{"host_info":null}}
+[2018-03-16 10:48:27,649] $INFO (cloudManage.py:16) {"code":1,"data":{"host_info":null}}
+[2018-03-16 10:48:27,652] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 10:48:27,653] $INFO (cloudManage.py:13) {'host_id': 6}
+[2018-03-16 10:48:28,383] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,384] $INFO (commonSteps.py:22) {"code":1,"mag":"重启成功"}
+[2018-03-16 10:48:28,384] $INFO (cloudManage.py:16) {"code":1,"mag":"重启成功"}
+[2018-03-16 10:48:28,386] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,386] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 10:48:28,468] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,468] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,469] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,473] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,473] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 10:48:28,543] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,543] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:28,544] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:28,546] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,546] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 10:48:28,620] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,621] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:28,621] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:28,624] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,624] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 10:48:28,704] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 10:48:28,705] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,705] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,711] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,711] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 10:48:28,791] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,791] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,792] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,794] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,794] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 10:48:28,877] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,878] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,878] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:28,880] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,880] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 10:48:28,953] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,953] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:28,954] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:28,957] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:28,958] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 10:48:29,028] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:29,028] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,028] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,030] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:29,030] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 10:48:29,109] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 10:48:29,109] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,110] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,113] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,113] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 10:48:29,197] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,197] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,198] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,200] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,200] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 10:48:29,285] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,286] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,286] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,288] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,288] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 10:48:29,354] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,354] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,355] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,359] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,360] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 10:48:29,430] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,430] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,430] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,432] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,432] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 10:48:29,512] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 10:48:29,513] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,513] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,519] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,519] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 10:48:29,630] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,631] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,631] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,633] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,633] $INFO (cloudManage.py:13) {'host_id': '', 'password': '', 'user_name': ''}
+[2018-03-16 10:48:29,697] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,697] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,698] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:29,699] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,700] $INFO (cloudManage.py:13) {'host_id': 90, 'password': '', 'user_name': ''}
+[2018-03-16 10:48:29,774] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,774] $INFO (commonSteps.py:22) {"code":0,"msg":"password不能为空"}
+[2018-03-16 10:48:29,774] $INFO (cloudManage.py:16) {"code":0,"msg":"password不能为空"}
+[2018-03-16 10:48:29,776] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,779] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': ''}
+[2018-03-16 10:48:29,867] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,867] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,868] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,872] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,873] $INFO (cloudManage.py:13) {'host_id': 13, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 10:48:29,959] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,959] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,960] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:29,962] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:29,962] $INFO (cloudManage.py:13) {'host_id': 11111, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 10:48:30,041] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,041] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,041] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,043] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,044] $INFO (cloudManage.py:13) {'host_id': 'test', 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 10:48:30,112] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,113] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:30,113] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:30,115] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,115] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 123434514, 'user_name': 'root'}
+[2018-03-16 10:48:30,195] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,196] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,196] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,198] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,198] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 12234}
+[2018-03-16 10:48:30,282] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,282] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,282] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,285] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,285] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 'jietest'}
+[2018-03-16 10:48:30,366] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 10:48:30,366] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,366] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,374] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,374] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest'}
+[2018-03-16 10:48:30,462] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,462] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,462] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,464] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,464] $INFO (cloudManage.py:13) {'host_id': '', 'password': ''}
+[2018-03-16 10:48:30,533] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,533] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:30,533] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:30,536] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,536] $INFO (cloudManage.py:13) {'host_id': 90, 'password': ''}
+[2018-03-16 10:48:30,604] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,604] $INFO (commonSteps.py:22) {"code":0,"msg":"password不能为空"}
+[2018-03-16 10:48:30,604] $INFO (cloudManage.py:16) {"code":0,"msg":"password不能为空"}
+[2018-03-16 10:48:30,607] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,608] $INFO (cloudManage.py:13) {'host_id': 13, 'password': 'jietest'}
+[2018-03-16 10:48:30,688] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,689] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,689] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,691] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,691] $INFO (cloudManage.py:13) {'host_id': 11111, 'password': 'jietest'}
+[2018-03-16 10:48:30,803] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,804] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,804] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,806] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,806] $INFO (cloudManage.py:13) {'host_id': 'test', 'password': 'jietest'}
+[2018-03-16 10:48:30,887] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,887] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:30,888] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:30,890] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,890] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 123434514}
+[2018-03-16 10:48:30,972] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 10:48:30,973] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,973] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:30,978] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 10:48:30,978] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 10:48:31,064] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,064] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:31,064] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:31,066] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,067] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 10:48:31,146] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,146] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:31,146] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:31,148] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,148] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 10:48:31,214] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,214] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,215] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,217] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,217] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 10:48:31,292] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,292] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,292] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,295] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,295] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 10:48:31,378] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 10:48:31,379] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:31,379] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 10:48:31,382] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,382] $INFO (cloudManage.py:13) {'host_id': 8}
+[2018-03-16 10:48:31,458] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,458] $INFO (commonSteps.py:22) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 10:48:31,458] $INFO (cloudManage.py:16) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 10:48:31,461] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,461] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 10:48:31,533] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,533] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,533] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,536] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,536] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 10:48:31,606] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,606] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,606] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 10:48:31,611] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,611] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 10:48:31,692] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 10:48:31,693] $INFO (commonSteps.py:22) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 10:48:31,693] $INFO (cloudManage.py:16) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 11:10:07,911] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:07,912] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:10:08,047] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=
+[2018-03-16 11:10:08,047] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,047] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,050] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,050] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': ''}
+[2018-03-16 11:10:08,172] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=
+[2018-03-16 11:10:08,172] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,172] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,175] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,175] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 100, 'limit': ''}
+[2018-03-16 11:10:08,257] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=100&limit=
+[2018-03-16 11:10:08,257] $INFO (commonSteps.py:22) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:10:08,257] $INFO (cloudManage.py:16) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:10:08,261] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,262] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': 1}
+[2018-03-16 11:10:08,353] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=1
+[2018-03-16 11:10:08,353] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:10:08,354] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:10:08,355] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,356] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 1}
+[2018-03-16 11:10:08,437] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=1
+[2018-03-16 11:10:08,437] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:10:08,437] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:10:08,439] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,440] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 325, 'page': '', 'limit': ''}
+[2018-03-16 11:10:08,520] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=325&page=&limit=
+[2018-03-16 11:10:08,520] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:08,521] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:08,523] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,523] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:10:08,612] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=&page=&limit=
+[2018-03-16 11:10:08,612] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:08,612] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:08,614] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,614] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': 374, 'page': '', 'limit': ''}
+[2018-03-16 11:10:08,697] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=374&page=&limit=
+[2018-03-16 11:10:08,697] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:10:08,698] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:10:08,700] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,700] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 3333, 'page': 'test', 'limit': ''}
+[2018-03-16 11:10:08,781] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=3333&page=test&limit=
+[2018-03-16 11:10:08,781] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:10:08,781] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:10:08,783] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,783] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 'test', 'page': '', 'limit': ''}
+[2018-03-16 11:10:08,867] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=test&page=&limit=
+[2018-03-16 11:10:08,867] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,868] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,870] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,870] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 'test', 'limit': ''}
+[2018-03-16 11:10:08,955] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=test&limit=
+[2018-03-16 11:10:08,955] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,955] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:08,958] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:08,958] $INFO (cloudManage.py:13) {'instance_name': 123, 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:10:09,038] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=123&cloud_id=&page=&limit=
+[2018-03-16 11:10:09,039] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:09,039] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:09,041] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:09,042] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 'test'}
+[2018-03-16 11:10:09,135] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=test
+[2018-03-16 11:10:09,135] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:09,136] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:10:09,138] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:10:09,138] $INFO (cloudManage.py:13) {'instance_name': 'test', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:10:09,220] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=test&cloud_id=&page=&limit=
+[2018-03-16 11:10:09,220] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:10:09,221] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:51,858] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:51,858] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:14:51,967] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=
+[2018-03-16 11:14:51,967] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:51,968] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:51,970] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:51,970] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': ''}
+[2018-03-16 11:14:52,052] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=
+[2018-03-16 11:14:52,053] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:52,053] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:52,056] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,056] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 100, 'limit': ''}
+[2018-03-16 11:14:52,142] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=100&limit=
+[2018-03-16 11:14:52,142] $INFO (commonSteps.py:22) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:14:52,142] $INFO (cloudManage.py:16) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:14:52,144] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,144] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': 1}
+[2018-03-16 11:14:52,228] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=1
+[2018-03-16 11:14:52,228] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:14:52,228] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:14:52,230] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,230] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 1}
+[2018-03-16 11:14:52,313] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=1
+[2018-03-16 11:14:52,313] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:14:52,313] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:14:52,315] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,315] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 325, 'page': '', 'limit': ''}
+[2018-03-16 11:14:52,398] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=325&page=&limit=
+[2018-03-16 11:14:52,399] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:52,399] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:52,401] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,401] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:14:52,488] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=&page=&limit=
+[2018-03-16 11:14:52,488] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:52,489] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:52,491] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,491] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': 428, 'page': '', 'limit': ''}
+[2018-03-16 11:14:52,569] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=428&page=&limit=
+[2018-03-16 11:14:52,569] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:14:52,570] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:14:52,572] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,572] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 3333, 'page': 'test', 'limit': ''}
+[2018-03-16 11:14:52,652] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=3333&page=test&limit=
+[2018-03-16 11:14:52,652] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:14:52,653] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:14:52,655] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,655] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 'test', 'page': '', 'limit': ''}
+[2018-03-16 11:14:52,743] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=test&page=&limit=
+[2018-03-16 11:14:52,743] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:52,743] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:52,746] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,746] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 'test', 'limit': ''}
+[2018-03-16 11:14:52,827] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=test&limit=
+[2018-03-16 11:14:52,827] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:52,827] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:52,830] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,830] $INFO (cloudManage.py:13) {'instance_name': 123, 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:14:52,912] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=123&cloud_id=&page=&limit=
+[2018-03-16 11:14:52,912] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:52,913] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:52,915] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:52,916] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 'test'}
+[2018-03-16 11:14:52,999] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=test
+[2018-03-16 11:14:53,000] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:53,000] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:14:53,002] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:14:53,002] $INFO (cloudManage.py:13) {'instance_name': 'test', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:14:53,088] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=test&cloud_id=&page=&limit=
+[2018-03-16 11:14:53,088] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:14:53,089] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:52,786] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:52,786] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:16:52,903] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=
+[2018-03-16 11:16:52,903] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:52,903] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:52,906] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:52,906] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': ''}
+[2018-03-16 11:16:52,990] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=
+[2018-03-16 11:16:52,990] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:52,992] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:52,996] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:52,996] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 100, 'limit': ''}
+[2018-03-16 11:16:53,086] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=100&limit=
+[2018-03-16 11:16:53,086] $INFO (commonSteps.py:22) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:16:53,086] $INFO (cloudManage.py:16) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:16:53,088] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,088] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': 1}
+[2018-03-16 11:16:53,172] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=1
+[2018-03-16 11:16:53,172] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:16:53,173] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:16:53,175] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,175] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 1}
+[2018-03-16 11:16:53,262] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=1
+[2018-03-16 11:16:53,262] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:16:53,263] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:16:53,265] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,265] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 325, 'page': '', 'limit': ''}
+[2018-03-16 11:16:53,351] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=325&page=&limit=
+[2018-03-16 11:16:53,351] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:53,351] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:53,353] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,354] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:16:53,444] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=&page=&limit=
+[2018-03-16 11:16:53,444] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:53,444] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:53,446] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,446] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': 428, 'page': '', 'limit': ''}
+[2018-03-16 11:16:53,522] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=428&page=&limit=
+[2018-03-16 11:16:53,522] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:16:53,522] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:16:53,524] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,525] $INFO (cloudManage.py:13) {'instance_name': 'i-t4nhhhnujmq7123p5ald', 'cloud_id': 428, 'page': '', 'limit': ''}
+[2018-03-16 11:16:53,606] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=i-t4nhhhnujmq7123p5ald&cloud_id=428&page=&limit=
+[2018-03-16 11:16:53,606] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:16:53,606] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:16:53,609] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,609] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 3333, 'page': 'test', 'limit': ''}
+[2018-03-16 11:16:53,692] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=3333&page=test&limit=
+[2018-03-16 11:16:53,692] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:16:53,693] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:16:53,696] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,696] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 'test', 'page': '', 'limit': ''}
+[2018-03-16 11:16:53,778] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=test&page=&limit=
+[2018-03-16 11:16:53,778] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:53,779] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:53,781] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,781] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 'test', 'limit': ''}
+[2018-03-16 11:16:53,863] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=test&limit=
+[2018-03-16 11:16:53,863] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:53,864] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:53,866] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,867] $INFO (cloudManage.py:13) {'instance_name': 123, 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:16:53,953] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=123&cloud_id=&page=&limit=
+[2018-03-16 11:16:53,953] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:53,954] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:53,956] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:53,956] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 'test'}
+[2018-03-16 11:16:54,036] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=test
+[2018-03-16 11:16:54,037] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:54,037] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:16:54,040] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:16:54,040] $INFO (cloudManage.py:13) {'instance_name': 'test', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:16:54,126] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=test&cloud_id=&page=&limit=
+[2018-03-16 11:16:54,126] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:16:54,127] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:44,729] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:44,730] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:17:44,838] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=
+[2018-03-16 11:17:44,838] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:44,839] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:44,841] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:44,842] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': ''}
+[2018-03-16 11:17:44,924] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=
+[2018-03-16 11:17:44,925] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:44,925] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:44,940] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:44,940] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 100, 'limit': ''}
+[2018-03-16 11:17:45,026] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=100&limit=
+[2018-03-16 11:17:45,027] $INFO (commonSteps.py:22) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:17:45,027] $INFO (cloudManage.py:16) {"code":1,"data":{"page":100,"count":"4","page_count":1,"host_list":[]}}
+[2018-03-16 11:17:45,029] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,029] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 1, 'limit': 1}
+[2018-03-16 11:17:45,116] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=1&limit=1
+[2018-03-16 11:17:45,116] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:17:45,116] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:17:45,118] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,119] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 1}
+[2018-03-16 11:17:45,245] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=1
+[2018-03-16 11:17:45,246] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:17:45,246] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":4,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"}]}}
+[2018-03-16 11:17:45,248] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,248] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 325, 'page': '', 'limit': ''}
+[2018-03-16 11:17:45,332] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=325&page=&limit=
+[2018-03-16 11:17:45,333] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:45,333] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:45,335] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,335] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:17:45,416] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=&page=&limit=
+[2018-03-16 11:17:45,416] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:45,416] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:45,418] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,418] $INFO (cloudManage.py:13) {'instance_name': 'sssssjljl', 'cloud_id': 428, 'page': '', 'limit': ''}
+[2018-03-16 11:17:45,501] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=sssssjljl&cloud_id=428&page=&limit=
+[2018-03-16 11:17:45,501] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:17:45,501] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:17:45,503] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,503] $INFO (cloudManage.py:13) {'instance_name': '新加坡', 'cloud_id': 428, 'page': '', 'limit': ''}
+[2018-03-16 11:17:45,581] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=%E6%96%B0%E5%8A%A0%E5%9D%A1&cloud_id=428&page=&limit=
+[2018-03-16 11:17:45,581] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:17:45,581] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:17:45,584] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,584] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 3333, 'page': 'test', 'limit': ''}
+[2018-03-16 11:17:45,664] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=3333&page=test&limit=
+[2018-03-16 11:17:45,664] $INFO (commonSteps.py:22) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:17:45,664] $INFO (cloudManage.py:16) {"code":0,"msg":"无效的cloud_id"}
+[2018-03-16 11:17:45,666] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,667] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': 'test', 'page': '', 'limit': ''}
+[2018-03-16 11:17:45,750] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=test&page=&limit=
+[2018-03-16 11:17:45,750] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:45,750] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:45,754] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,754] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': 'test', 'limit': ''}
+[2018-03-16 11:17:45,841] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=test&limit=
+[2018-03-16 11:17:45,842] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:45,842] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:45,845] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,845] $INFO (cloudManage.py:13) {'instance_name': 123, 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:17:45,921] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=123&cloud_id=&page=&limit=
+[2018-03-16 11:17:45,922] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:45,922] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:45,927] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:45,927] $INFO (cloudManage.py:13) {'instance_name': '', 'cloud_id': '', 'page': '', 'limit': 'test'}
+[2018-03-16 11:17:46,010] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=&cloud_id=&page=&limit=test
+[2018-03-16 11:17:46,010] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:46,010] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"4","page_count":1,"host_list":[{"id":"2","instance_name":"aaa3","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-beijing","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"running","operating_system":null,"platform":"linux","provider":"tx"},{"id":"3","instance_name":"aaa2","host_name":"bbbbrrr","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"delete","operating_system":null,"platform":"linux","provider":"tx"},{"id":"6","instance_name":"aaa1","host_name":"bbbb","public_ip":"140.143.11.68","inner_ip":"172.21.0.2","region_id":"ap-guangzhou","zone_id":null,"charge_type":"PrePaid","expired_time":"4294967295","status":"runinng","operating_system":null,"platform":"linux","provider":"tx"},{"id":"7","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","public_ip":"47.74.155.136","inner_ip":null,"region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","charge_type":"PrePaid","expired_time":"1599753600","status":"Running","operating_system":"Ubuntu  16.04 64位","platform":"linux","provider":"aliyun"}]}}
+[2018-03-16 11:17:46,012] $INFO (cloudManage.py:12) /cloudwebapi/host/hostlist
+[2018-03-16 11:17:46,013] $INFO (cloudManage.py:13) {'instance_name': 'test', 'cloud_id': '', 'page': '', 'limit': ''}
+[2018-03-16 11:17:46,093] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostlist?instance_name=test&cloud_id=&page=&limit=
+[2018-03-16 11:17:46,093] $INFO (commonSteps.py:22) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:17:46,093] $INFO (cloudManage.py:16) {"code":1,"data":{"page":1,"count":"0","page_count":0,"host_list":[]}}
+[2018-03-16 11:23:14,313] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 11:23:14,314] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 11:23:14,430] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=90
+[2018-03-16 11:23:14,430] $INFO (commonSteps.py:22) {"code":1,"data":{"host_info":{"id":"90","instance_id":"i-t4nhhhnujmq7123p5ald","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","platform":"linux","public_ip":"47.74.155.136","inner_ip":null,"status":"Running","task_id":"4286960","region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","operating_system":"Ubuntu  16.04 64位","processor_cores":"1","memory":"1024","instance_type":"ecs.xn4.small","network_type":"vpc","charge_type":"PrePaid","internet_charge_type":"PrePaid","internet_band_width":"1","creation_time":"1505052660","expired_time":"1599753600","import_time":"1521107085","metric_data_ready":"0","traffic_data_ready":"0","user_id":"100699","cloud_id":"428","group_id":"0","image_id":"m-t4nhaysdqmkekcltj8zn","team_id":"0","instance_type_family":"","io_optimized":null,"instance_cost":null,"disk_cost":null,"bandwidth_cost":null,"snapshot_cost":null,"description":"","cloud_type":"0","provider":"aliyun"}}}
+[2018-03-16 11:23:14,431] $INFO (cloudManage.py:16) {"code":1,"data":{"host_info":{"id":"90","instance_id":"i-t4nhhhnujmq7123p5ald","instance_name":"新加坡","host_name":"iZt4nhhhnujmq7123p5aldZ","platform":"linux","public_ip":"47.74.155.136","inner_ip":null,"status":"Running","task_id":"4286960","region_id":"ap-southeast-1","zone_id":"ap-southeast-1b","operating_system":"Ubuntu  16.04 64位","processor_cores":"1","memory":"1024","instance_type":"ecs.xn4.small","network_type":"vpc","charge_type":"PrePaid","internet_charge_type":"PrePaid","internet_band_width":"1","creation_time":"1505052660","expired_time":"1599753600","import_time":"1521107085","metric_data_ready":"0","traffic_data_ready":"0","user_id":"100699","cloud_id":"428","group_id":"0","image_id":"m-t4nhaysdqmkekcltj8zn","team_id":"0","instance_type_family":"","io_optimized":null,"instance_cost":null,"disk_cost":null,"bandwidth_cost":null,"snapshot_cost":null,"description":"","cloud_type":"0","provider":"aliyun"}}}
+[2018-03-16 11:23:14,433] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 11:23:14,433] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 11:23:14,519] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=13
+[2018-03-16 11:23:14,519] $INFO (commonSteps.py:22) {"code":1,"data":{"host_info":null}}
+[2018-03-16 11:23:14,519] $INFO (cloudManage.py:16) {"code":1,"data":{"host_info":null}}
+[2018-03-16 11:23:14,522] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 11:23:14,522] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 11:23:14,596] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=
+[2018-03-16 11:23:14,597] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:23:14,597] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:23:14,602] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 11:23:14,602] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 11:23:14,668] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=test
+[2018-03-16 11:23:14,668] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:23:14,669] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:23:14,670] $INFO (cloudManage.py:12) /cloudwebapi/host/hostinfo
+[2018-03-16 11:23:14,671] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 11:23:14,749] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostinfo?host_id=1211111
+[2018-03-16 11:23:14,749] $INFO (commonSteps.py:22) {"code":1,"data":{"host_info":null}}
+[2018-03-16 11:23:14,749] $INFO (cloudManage.py:16) {"code":1,"data":{"host_info":null}}
+[2018-03-16 11:24:51,712] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,712] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 11:24:51,809] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,809] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:24:51,809] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:24:51,811] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,811] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 11:24:51,895] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,895] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:24:51,895] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:24:51,897] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,897] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 11:24:51,973] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,973] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:24:51,973] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:24:51,975] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 11:24:51,975] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 11:24:52,062] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 11:24:52,062] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:24:52,062] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:24:52,064] $INFO (cloudManage.py:12) /cloudwebapi/host/hostreboot
+[2018-03-16 11:24:52,065] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 11:24:52,145] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostreboot
+[2018-03-16 11:24:52,145] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:24:52,146] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:25:38,917] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:38,917] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 11:25:39,018] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,018] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:25:39,018] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:25:39,021] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,021] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 11:25:39,107] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,108] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:25:39,108] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:25:39,111] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,111] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 11:25:39,190] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,190] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:25:39,190] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:25:39,192] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,192] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 11:25:39,263] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,264] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:25:39,264] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:25:39,266] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,266] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 11:25:39,345] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweroff
+[2018-03-16 11:25:39,345] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:25:39,345] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:29:39,617] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,618] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 11:29:39,739] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,740] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:29:39,740] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:29:39,742] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,742] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 11:29:39,822] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,823] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:29:39,823] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:29:39,825] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,825] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 11:29:39,898] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,898] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:29:39,899] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:29:39,901] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,901] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 11:29:39,977] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,977] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:29:39,977] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 11:29:39,979] $INFO (cloudManage.py:12) /cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:39,979] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 11:29:40,057] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostpoweron
+[2018-03-16 11:29:40,057] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 11:29:40,058] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:44,954] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:44,955] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:07:45,109] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,109] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,109] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,112] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,112] $INFO (cloudManage.py:13) {'host_id': '', 'password': '', 'user_name': ''}
+[2018-03-16 13:07:45,190] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,191] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:07:45,191] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:07:45,193] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,193] $INFO (cloudManage.py:13) {'host_id': 90, 'password': '', 'user_name': ''}
+[2018-03-16 13:07:45,266] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,266] $INFO (commonSteps.py:22) {"code":0,"msg":"password不能为空"}
+[2018-03-16 13:07:45,267] $INFO (cloudManage.py:16) {"code":0,"msg":"password不能为空"}
+[2018-03-16 13:07:45,269] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,269] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': ''}
+[2018-03-16 13:07:45,356] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,356] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,356] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,358] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,359] $INFO (cloudManage.py:13) {'host_id': 13, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:07:45,437] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,438] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,438] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,440] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,440] $INFO (cloudManage.py:13) {'host_id': 11111, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:07:45,516] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,517] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,517] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,519] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,519] $INFO (cloudManage.py:13) {'host_id': 'test', 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:07:45,587] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,587] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:07:45,587] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:07:45,590] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,590] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 123434514, 'user_name': 'root'}
+[2018-03-16 13:07:45,673] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,673] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,673] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,676] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,676] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 12234}
+[2018-03-16 13:07:45,755] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,755] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,756] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,762] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,762] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 'jietest'}
+[2018-03-16 13:07:45,844] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:07:45,845] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:07:45,845] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,391] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,392] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:15:42,505] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,505] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,505] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,508] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,508] $INFO (cloudManage.py:13) {'host_id': '', 'password': '', 'user_name': ''}
+[2018-03-16 13:15:42,578] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,579] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:15:42,579] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:15:42,584] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,585] $INFO (cloudManage.py:13) {'host_id': 90, 'password': '', 'user_name': ''}
+[2018-03-16 13:15:42,663] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,664] $INFO (commonSteps.py:22) {"code":0,"msg":"password不能为空"}
+[2018-03-16 13:15:42,664] $INFO (cloudManage.py:16) {"code":0,"msg":"password不能为空"}
+[2018-03-16 13:15:42,666] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,666] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': ''}
+[2018-03-16 13:15:42,753] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,753] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,753] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,755] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,755] $INFO (cloudManage.py:13) {'host_id': 13, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:15:42,833] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,833] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,833] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,835] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,835] $INFO (cloudManage.py:13) {'host_id': 11111, 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:15:42,919] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,920] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,920] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:42,922] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,922] $INFO (cloudManage.py:13) {'host_id': 'test', 'password': 'jietest', 'user_name': 'root'}
+[2018-03-16 13:15:42,993] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,994] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:15:42,994] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:15:42,997] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:42,997] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 123434514, 'user_name': 'root'}
+[2018-03-16 13:15:43,083] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:43,083] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:43,084] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:43,086] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:43,086] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 12234}
+[2018-03-16 13:15:43,178] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:43,179] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:43,180] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:43,185] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:43,185] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest', 'user_name': 'jietest'}
+[2018-03-16 13:15:43,273] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetpassword
+[2018-03-16 13:15:43,273] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:15:43,274] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:12,622] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,623] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 'jietest'}
+[2018-03-16 13:17:12,743] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,743] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:12,744] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:12,746] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,746] $INFO (cloudManage.py:13) {'host_id': '', 'password': ''}
+[2018-03-16 13:17:12,818] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,818] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:17:12,819] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:17:12,822] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,822] $INFO (cloudManage.py:13) {'host_id': 90, 'password': ''}
+[2018-03-16 13:17:12,909] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,910] $INFO (commonSteps.py:22) {"code":0,"msg":"password不能为空"}
+[2018-03-16 13:17:12,910] $INFO (cloudManage.py:16) {"code":0,"msg":"password不能为空"}
+[2018-03-16 13:17:12,912] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,912] $INFO (cloudManage.py:13) {'host_id': 13, 'password': 'jietest'}
+[2018-03-16 13:17:12,994] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,994] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:12,994] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:12,996] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:12,997] $INFO (cloudManage.py:13) {'host_id': 11111, 'password': 'jietest'}
+[2018-03-16 13:17:13,088] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:13,088] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:13,088] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:13,090] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:13,091] $INFO (cloudManage.py:13) {'host_id': 'test', 'password': 'jietest'}
+[2018-03-16 13:17:13,163] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:13,163] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:17:13,163] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:17:13,165] $INFO (cloudManage.py:12) /cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:13,165] $INFO (cloudManage.py:13) {'host_id': 90, 'password': 123434514}
+[2018-03-16 13:17:13,249] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostresetvncpassword
+[2018-03-16 13:17:13,249] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:17:13,249] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:22:20,063] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,063] $INFO (cloudManage.py:13) {'host_id': 90}
+[2018-03-16 13:22:20,165] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,165] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:22:20,165] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:22:20,168] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,168] $INFO (cloudManage.py:13) {'host_id': 13}
+[2018-03-16 13:22:20,251] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,251] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:22:20,252] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:22:20,254] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,254] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 13:22:20,324] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,324] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:22:20,324] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:22:20,330] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,330] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 13:22:20,405] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,406] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:22:20,406] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:22:20,408] $INFO (cloudManage.py:12) /cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,409] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 13:22:20,491] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hoststatus
+[2018-03-16 13:22:20,492] $INFO (commonSteps.py:22) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:22:20,492] $INFO (cloudManage.py:16) {"code":0,"msg":"无此实例"}
+[2018-03-16 13:24:57,889] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 13:24:57,890] $INFO (cloudManage.py:13) {'host_id': 74}
+[2018-03-16 13:24:58,013] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,014] $INFO (commonSteps.py:22) {"code":1,"msg":"删除成功"}
+[2018-03-16 13:24:58,014] $INFO (cloudManage.py:16) {"code":1,"msg":"删除成功"}
+[2018-03-16 13:24:58,016] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,016] $INFO (cloudManage.py:13) {'host_id': 8}
+[2018-03-16 13:24:58,095] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,095] $INFO (commonSteps.py:22) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 13:24:58,095] $INFO (cloudManage.py:16) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 13:24:58,099] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,100] $INFO (cloudManage.py:13) {'host_id': ''}
+[2018-03-16 13:24:58,168] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,168] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:24:58,168] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:24:58,171] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,171] $INFO (cloudManage.py:13) {'host_id': 'test'}
+[2018-03-16 13:24:58,250] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,250] $INFO (commonSteps.py:22) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:24:58,250] $INFO (cloudManage.py:16) {"code":0,"msg":"host_id不能为非整数"}
+[2018-03-16 13:24:58,252] $INFO (cloudManage.py:12) /cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,252] $INFO (cloudManage.py:13) {'host_id': 1211111}
+[2018-03-16 13:24:58,331] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/host/hostdelete
+[2018-03-16 13:24:58,331] $INFO (commonSteps.py:22) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 13:24:58,331] $INFO (cloudManage.py:16) {"code":0,"msg":"云主机不存在"}
+[2018-03-16 14:15:14,148] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,149] $INFO (cloudManage.py:13) {'limit': '', 'sort': ''}
+[2018-03-16 14:15:14,279] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=&sort=
+[2018-03-16 14:15:14,280] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,280] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,286] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,286] $INFO (cloudManage.py:13) {'limit': 5, 'sort': ''}
+[2018-03-16 14:15:14,356] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=5&sort=
+[2018-03-16 14:15:14,356] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,357] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,359] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,359] $INFO (cloudManage.py:13) {'limit': 100, 'sort': 'desc'}
+[2018-03-16 14:15:14,430] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=100&sort=desc
+[2018-03-16 14:15:14,430] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,430] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,432] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,432] $INFO (cloudManage.py:13) {'limit': 'test', 'sort': 'desc'}
+[2018-03-16 14:15:14,506] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=test&sort=desc
+[2018-03-16 14:15:14,506] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,506] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,509] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,509] $INFO (cloudManage.py:13) {'limit': 5, 'sort': 5}
+[2018-03-16 14:15:14,577] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=5&sort=5
+[2018-03-16 14:15:14,577] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,578] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,580] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,580] $INFO (cloudManage.py:13) {'limit': 5, 'sort': 'test'}
+[2018-03-16 14:15:14,646] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=5&sort=test
+[2018-03-16 14:15:14,646] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,647] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,649] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,650] $INFO (cloudManage.py:13) {'limit': 5, 'sort': 'desc'}
+[2018-03-16 14:15:14,725] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=5&sort=desc
+[2018-03-16 14:15:14,726] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,726] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:15:14,729] $INFO (cloudManage.py:12) /cloudwebapi/hostmonitor/cpuusage
+[2018-03-16 14:15:14,729] $INFO (cloudManage.py:13) {'limit': 5, 'sort': 'asc'}
+[2018-03-16 14:15:14,810] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/cloudwebapi/hostmonitor/cpuusage?limit=5&sort=asc
+[2018-03-16 14:15:14,811] $INFO (commonSteps.py:22) 404
+[2018-03-16 14:15:14,811] $INFO (cloudManage.py:16) 404
+[2018-03-16 14:18:27,932] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:27,933] $INFO (cloudManage.py:41) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:18:27,966] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:27,967] $INFO (cloudManage.py:13) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:18:28,059] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:28,059] $INFO (commonSteps.py:22) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:18:28,059] $INFO (cloudManage.py:16) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:18:28,064] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,064] $INFO (cloudManage.py:41) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:18:28,083] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,083] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:18:28,107] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:28,107] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:18:28,194] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:28,194] $INFO (commonSteps.py:22) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:18:28,195] $INFO (cloudManage.py:16) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:18:28,196] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,196] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:18:28,218] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,218] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:18:28,241] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:28,241] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:18:28,325] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:28,325] $INFO (commonSteps.py:22) {"code":0,"msg":"Secret\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:18:28,325] $INFO (cloudManage.py:16) {"code":0,"msg":"Secret\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:18:28,326] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,327] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:18:28,350] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,350] $INFO (cloudManage.py:41) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:18:28,380] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:28,381] $INFO (cloudManage.py:13) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:18:28,463] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:28,463] $INFO (commonSteps.py:22) {"code":0,"msg":"\u4e91\u63d0\u4f9b\u5546\u662f\u65e0\u6548\u7684\u3002"}
+[2018-03-16 14:18:28,463] $INFO (cloudManage.py:16) {"code":0,"msg":"\u4e91\u63d0\u4f9b\u5546\u662f\u65e0\u6548\u7684\u3002"}
+[2018-03-16 14:18:28,465] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,465] $INFO (cloudManage.py:41) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:18:28,482] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,482] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'testtset', 'secret': 'testetat'}
+[2018-03-16 14:18:28,495] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:28,495] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'testtset', 'secret': 'testetat'}
+[2018-03-16 14:18:28,819] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:28,819] $INFO (commonSteps.py:22) {"code":1,"key_id":431,"key_name":"阿里云17"}
+[2018-03-16 14:18:28,820] $INFO (cloudManage.py:16) {"code":1,"key_id":431,"key_name":"阿里云17"}
+[2018-03-16 14:18:28,822] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:28,822] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf2', 'secret': 'testwetst'}
+[2018-03-16 14:18:28,834] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:28,834] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf2', 'secret': 'testwetst'}
+[2018-03-16 14:18:32,084] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:32,084] $INFO (commonSteps.py:22) {"code":1,"key_id":432,"key_name":"阿里云18"}
+[2018-03-16 14:18:32,084] $INFO (cloudManage.py:16) {"code":1,"key_id":432,"key_name":"阿里云18"}
+[2018-03-16 14:18:32,087] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:32,087] $INFO (cloudManage.py:41) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:18:32,107] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:32,107] $INFO (cloudManage.py:13) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:18:32,256] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:32,256] $INFO (commonSteps.py:22) {"code":1,"key_id":433,"key_name":"腾讯云18"}
+[2018-03-16 14:18:32,256] $INFO (cloudManage.py:16) {"code":1,"key_id":433,"key_name":"腾讯云18"}
+[2018-03-16 14:18:32,258] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:32,258] $INFO (cloudManage.py:41) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:18:32,273] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:32,273] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:18:32,287] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:18:32,287] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:18:32,480] $INFO (commonSteps.py:21) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:18:32,480] $INFO (commonSteps.py:22) {"code":1,"key_id":434,"key_name":"阿里云18"}
+[2018-03-16 14:18:32,480] $INFO (cloudManage.py:16) {"code":1,"key_id":434,"key_name":"阿里云18"}
+[2018-03-16 14:18:32,482] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:18:32,482] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:35:36,460] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:36,460] $INFO (cloudManage.py:41) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:35:36,496] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:36,496] $INFO (cloudManage.py:13) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:35:36,680] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:36,680] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:36,680] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:36,683] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:36,683] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:35:36,707] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:36,707] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:35:36,789] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:36,790] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:36,790] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:36,793] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:36,793] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:35:36,814] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:36,814] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:35:36,889] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:36,889] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:36,889] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:36,892] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:36,892] $INFO (cloudManage.py:41) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:35:36,925] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:36,925] $INFO (cloudManage.py:13) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:35:37,004] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:37,005] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,005] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,007] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:37,007] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'testtset', 'secret': 'testetat'}
+[2018-03-16 14:35:37,031] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:37,031] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'testtset', 'secret': 'testetat'}
+[2018-03-16 14:35:37,110] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:37,110] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,110] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,113] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:37,113] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf2', 'secret': 'testwetst'}
+[2018-03-16 14:35:37,139] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:37,139] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf2', 'secret': 'testwetst'}
+[2018-03-16 14:35:37,214] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:37,215] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,215] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,220] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:37,221] $INFO (cloudManage.py:41) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:35:37,243] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:37,244] $INFO (cloudManage.py:13) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:35:37,315] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:37,316] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,316] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,321] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:35:37,321] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:35:37,339] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:35:37,339] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:35:37,410] $INFO (commonSteps.py:26) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:35:37,410] $INFO (commonSteps.py:27) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:35:37,411] $INFO (cloudManage.py:16) {"code":"-1", "msg":"timeout"}
+[2018-03-16 14:36:13,356] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,357] $INFO (cloudManage.py:41) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:36:13,391] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:13,391] $INFO (cloudManage.py:13) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:36:13,495] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:13,495] $INFO (commonSteps.py:25) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:36:13,495] $INFO (cloudManage.py:16) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:36:13,497] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,497] $INFO (cloudManage.py:41) {'provider': '', 'key': '', 'secret': ''}
+[2018-03-16 14:36:13,520] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,521] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:36:13,543] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:13,543] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:36:13,618] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:13,619] $INFO (commonSteps.py:25) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:36:13,619] $INFO (cloudManage.py:16) {"code":0,"msg":"Key\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:36:13,621] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,621] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': '', 'secret': ''}
+[2018-03-16 14:36:13,650] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,651] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:36:13,677] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:13,677] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:36:13,768] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:13,768] $INFO (commonSteps.py:25) {"code":0,"msg":"Secret\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:36:13,768] $INFO (cloudManage.py:16) {"code":0,"msg":"Secret\u4e0d\u80fd\u4e3a\u7a7a\u3002"}
+[2018-03-16 14:36:13,769] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,769] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': ''}
+[2018-03-16 14:36:13,790] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,790] $INFO (cloudManage.py:41) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:36:13,808] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:13,808] $INFO (cloudManage.py:13) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:36:13,887] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:13,887] $INFO (commonSteps.py:25) {"code":0,"msg":"\u4e91\u63d0\u4f9b\u5546\u662f\u65e0\u6548\u7684\u3002"}
+[2018-03-16 14:36:13,887] $INFO (cloudManage.py:16) {"code":0,"msg":"\u4e91\u63d0\u4f9b\u5546\u662f\u65e0\u6548\u7684\u3002"}
+[2018-03-16 14:36:13,888] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,889] $INFO (cloudManage.py:41) {'provider': 'aliyun1', 'key': 'LTAIOqOrLFSYdhYf1', 'secret': 'JKPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:36:13,907] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:13,907] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'testtset', 'secret': 'testetat'}
+[2018-03-16 14:36:13,921] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:13,921] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'testtset', 'secret': 'testetat'}
+[2018-03-16 14:36:14,172] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:14,173] $INFO (commonSteps.py:25) {"code":1,"key_id":435,"key_name":"阿里云16"}
+[2018-03-16 14:36:14,173] $INFO (cloudManage.py:16) {"code":1,"key_id":435,"key_name":"阿里云16"}
+[2018-03-16 14:36:14,179] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:14,179] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf2', 'secret': 'testwetst'}
+[2018-03-16 14:36:14,195] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:14,195] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf2', 'secret': 'testwetst'}
+[2018-03-16 14:36:14,468] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:14,468] $INFO (commonSteps.py:25) {"code":1,"key_id":436,"key_name":"阿里云17"}
+[2018-03-16 14:36:14,469] $INFO (cloudManage.py:16) {"code":1,"key_id":436,"key_name":"阿里云17"}
+[2018-03-16 14:36:14,471] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:14,471] $INFO (cloudManage.py:41) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:36:14,487] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:14,487] $INFO (cloudManage.py:13) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:36:14,635] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:14,636] $INFO (commonSteps.py:25) {"code":1,"key_id":437,"key_name":"腾讯云18"}
+[2018-03-16 14:36:14,636] $INFO (cloudManage.py:16) {"code":1,"key_id":437,"key_name":"腾讯云18"}
+[2018-03-16 14:36:14,637] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:14,637] $INFO (cloudManage.py:41) {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-16 14:36:14,650] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:14,650] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:36:14,664] $INFO (cloudManage.py:12) /user/api-key/add
+[2018-03-16 14:36:14,664] $INFO (cloudManage.py:13) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 14:36:14,899] $INFO (commonSteps.py:24) https://cmp.t.newdun.com/api/user/api-key/add
+[2018-03-16 14:36:14,900] $INFO (commonSteps.py:25) {"code":1,"key_id":438,"key_name":"阿里云18"}
+[2018-03-16 14:36:14,900] $INFO (cloudManage.py:16) {"code":1,"key_id":438,"key_name":"阿里云18"}
+[2018-03-16 14:36:14,902] $INFO (cloudManage.py:40) 删除业务组
+[2018-03-16 14:36:14,902] $INFO (cloudManage.py:41) {'provider': 'aliyun', 'key': 'LTAIOqOrLFSYdhYf', 'secret': 'KPKrovC2QOkJPuNdzwkl4YUA13eoU'}
+[2018-03-16 15:43:35,351] $INFO (cloudManage.py:12) /user/api-key/list
+[2018-03-16 15:43:35,352] $INFO (cloudManage.py:13) {'page': '', 'title': ''}
+[2018-03-16 15:43:35,536] $INFO (commonSteps.py:23) https://cmp.t.newdun.com/api/user/api-key/list?page=&title=
+[2018-03-16 15:43:35,537] $INFO (commonSteps.py:24) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:43:35,537] $INFO (cloudManage.py:16) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:45:09,459] $INFO (cloudManage.py:12) /user/api-key/list
+[2018-03-16 15:45:09,460] $INFO (cloudManage.py:13) {'page': '', 'title': ''}
+[2018-03-16 15:45:09,618] $INFO (commonSteps.py:23) https://cmp.t.newdun.com/api/user/api-key/list?page=&title=
+[2018-03-16 15:45:09,618] $INFO (commonSteps.py:24) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:45:09,619] $INFO (cloudManage.py:16) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:47:21,412] $INFO (cloudManage.py:12) /user/api-key/list
+[2018-03-16 15:47:21,413] $INFO (cloudManage.py:13) {'page': '', 'title': ''}
+[2018-03-16 15:47:21,558] $INFO (commonSteps.py:23) https://cmp.t.newdun.com/api/user/api-key/list?page=&title=
+[2018-03-16 15:47:21,559] $INFO (commonSteps.py:24) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:47:21,559] $INFO (cloudManage.py:16) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:50:24,129] $INFO (cloudManage.py:12) /user/api-key/list
+[2018-03-16 15:50:24,136] $INFO (cloudManage.py:13) {'page': '', 'title': ''}
+[2018-03-16 15:50:24,299] $INFO (commonSteps.py:23) https://cmp.t.newdun.com/api/user/api-key/list?page=&title=
+[2018-03-16 15:50:24,299] $INFO (commonSteps.py:24) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:50:24,299] $INFO (cloudManage.py:16) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:50:54,312] $INFO (cloudManage.py:12) /user/api-key/list
+[2018-03-16 15:50:54,313] $INFO (cloudManage.py:13) {'page': '', 'title': ''}
+[2018-03-16 15:50:54,467] $INFO (commonSteps.py:23) https://cmp.t.newdun.com/api/user/api-key/list?page=&title=
+[2018-03-16 15:50:54,467] $INFO (commonSteps.py:24) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}
+[2018-03-16 15:50:54,467] $INFO (cloudManage.py:16) {"code":1,"keys":[{"id":428,"title":"朱安庆阿里云","provider":"aliyun","api_key":"LTAIJXkdCaKXroUd","api_secret":"T7Z7FlUC28UhflamcB0k96tN2Qvf0o","enable":1,"api_valid":1,"user_id":100699,"created_at":1520399658,"updated_at":1520918268,"is_auto_update":1},{"id":430,"title":"腾讯云18","provider":"tx","api_key":"AKID1wgDmClSIyX1LVEHvSq10UtAHCYxo1Pk","api_secret":"P1TpzyqX6Wmrlw1vd8RddSAoMirowwpa","enable":1,"api_valid":1,"user_id":100699,"created_at":1521167019,"updated_at":1521167019,"is_auto_update":0}]}

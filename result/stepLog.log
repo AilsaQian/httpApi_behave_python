@@ -1,0 +1,22 @@
+[2018-03-14 16:01:47] INFO - stepLog:27 - {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-14 16:01:47] INFO - stepLog:27 - {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-14 16:01:47] INFO - stepLog:29 - {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-14 16:01:47] INFO - stepLog:29 - {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-14 16:01:48] INFO - stepLog:36 - {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-14 16:01:48] INFO - stepLog:36 - {'provider': 'tx', 'key': 'AKID394oNmyGJAuXyFqPDqIiDbt0kPyMIN0S', 'secret': 'PcjfPxKWNDsNg5hEduz1rVxEc7vlU7Zq'}
+[2018-03-14 16:01:48] INFO - stepLog:11 - /user/api-key/add
+[2018-03-14 16:01:48] INFO - stepLog:11 - /user/api-key/add
+[2018-03-14 16:01:48] INFO - stepLog:20 - {"code":1,"key_id":346,"key_name":"腾讯云10"}
+[2018-03-14 16:01:48] INFO - stepLog:20 - {"code":1,"key_id":346,"key_name":"腾讯云10"}
+[2018-03-14 16:01:48] INFO - stepLog:46 - {'code': 1, 'key_id': 346, 'key_name': '腾讯云10'}
+[2018-03-14 16:01:48] INFO - stepLog:46 - {'code': 1, 'key_id': 346, 'key_name': '腾讯云10'}
+[2018-03-14 16:01:48] INFO - stepLog:101 - {'id':'rightID'}
+[2018-03-14 16:01:48] INFO - stepLog:101 - {'id':'rightID'}
+[2018-03-14 16:01:48] INFO - stepLog:105 - {'id': 346}
+[2018-03-14 16:01:48] INFO - stepLog:105 - {'id': 346}
+[2018-03-14 16:01:48] INFO - stepLog:11 - /user/api-key/delete
+[2018-03-14 16:01:48] INFO - stepLog:11 - /user/api-key/delete
+[2018-03-14 16:01:48] INFO - stepLog:20 - {"code":1}
+[2018-03-14 16:01:48] INFO - stepLog:20 - {"code":1}
+[2018-03-14 16:01:48] INFO - stepLog:113 - {'code': 1}
+[2018-03-14 16:01:48] INFO - stepLog:113 - {'code': 1}
